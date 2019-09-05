@@ -461,3 +461,8 @@ static char* setToNull( char* ch ) {
 static bool isEndOfPrimitive( char ch ) {
     return ch == ',' || isOneOfThem( ch, blank ) || isOneOfThem( ch, endofblock );
 }
+
+int main()
+{
+	return 0;
+}
